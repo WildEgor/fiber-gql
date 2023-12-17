@@ -7,9 +7,9 @@
 package pkg
 
 import (
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/config"
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/handlers"
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/router"
+	"github.com/WildEgor/fiber-gql/internal/config"
+	"github.com/WildEgor/fiber-gql/internal/handlers"
+	"github.com/WildEgor/fiber-gql/internal/router"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/wire"
 )

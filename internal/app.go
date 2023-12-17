@@ -1,16 +1,16 @@
 package pkg
 
 import (
+	"github.com/gofiber/fiber/v2"
 	"os"
 
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/config"
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/router"
-	"github.com/gofiber/fiber/v2"
+	"github.com/WildEgor/fiber-gql/internal/config"
+	"github.com/WildEgor/fiber-gql/internal/router"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/recover"
 	"github.com/google/wire"
 
-	error_handler "github.com/WildEgor/fibergo-microservice-boilerplate/internal/errors"
+	error_handler "github.com/WildEgor/fiber-gql/internal/errors"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/config"
-	domains "github.com/WildEgor/fibergo-microservice-boilerplate/internal/domain"
+	"github.com/WildEgor/fiber-gql/internal/config"
+	domains "github.com/WildEgor/fiber-gql/internal/domain"
 	"github.com/gofiber/fiber/v2"
 )
 

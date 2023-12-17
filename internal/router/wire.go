@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/WildEgor/fibergo-microservice-boilerplate/internal/handlers"
+	"github.com/WildEgor/fiber-gql/internal/handlers"
 	"github.com/google/wire"
 )
 

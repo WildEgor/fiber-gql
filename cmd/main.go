@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	server "github.com/WildEgor/fibergo-microservice-boilerplate/internal"
+	server "github.com/WildEgor/fiber-gql/internal"
 	log "github.com/sirupsen/logrus"
 )
 
