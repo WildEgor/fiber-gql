@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  # Development container. 
+  # Runs in debug mode and live-reloading on every source file update.
+  microservice-dev:
+    hostname: microservice-dev
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    env_file:
+      ./.env
+    volumes:
+      - ./:/app
+    ports:
+      - "8888:8888"
+
+  microservice:
+    hostname: microservice
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    env_file:
+      ./.env
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
